@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 
-RUN pip install --no-cache-dir fastapi uvicorn prisma
+RUN pip install --no-cache-dir fastapi uvicorn prisma pandas
 
 
 RUN prisma generate
